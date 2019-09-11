@@ -40,7 +40,7 @@ java LPngOptimizer none gfmn.png
 
 参数
 
-8a 当发现使用pngquant效果太差的时候使用rgb555方式FloydSteinberg图片
+8a 当发现使用pngquant效果太差的时候使用rgb555方式FloydSteinberg方法抖动图片
 
 8b 直接使用pngquant输出
 
