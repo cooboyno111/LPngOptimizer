@@ -12,6 +12,8 @@ sudo apt-get install imagemagick
 
 javac LPngOptimizer.java
 
+chmod +x zopflipng
+
 使用
 
 java LPngOptimizer 8a gfmn.png
@@ -34,8 +36,16 @@ java LPngOptimizer none gfmn.png
 
 8b 直接使用pngquant输出
 
-16a 使用rgb555方式FloydSteinberg图片
+16a 使用rgb555方式FloydSteinberg方法抖动图片
 
-16b 使用rgb565方式FloydSteinberg图片
+16b 使用rgb565方式FloydSteinberg方法抖动图片
 
-nono 不做处理直接使用zopflipng优化图片
+nono 不做预处理直接使用zopflipng优化图片
+
+效果 压缩 gfmn.png
+src 275781 (269K)
+8a 187313 (182K)
+8b 74085 (72K)
+16a 187313 (182K)
+16b 204561 (199K)
+none 272753 (266K)
