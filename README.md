@@ -48,7 +48,7 @@ java LPngOptimizer none gfmn.png
 
 16a 使用rgb555方式FloydSteinberg方法抖动图片，此模式能成为很好的png32/24的代替品，体积比16b稍小。
 
-16b 使用rgb565方式FloydSteinberg方法抖动图片，此模式能成为很好的png32/24的代替品，大量的手机和电脑屏幕色度仅为6bit。
+16b 使用rgb565方式FloydSteinberg方法抖动图片，此模式能成为很好的png32/24的代替品，大量的手机和电脑屏幕色彩分量仅为6bit。
 
 nono 不做预处理直接使用zopflipng优化图片
 
