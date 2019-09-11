@@ -1,5 +1,9 @@
 # LPngOptimizer
 
+不是无损压缩属于弱有损压缩，8a模式基本能给予有限体积内最好的png画质。
+
+none模式为无损压缩。
+
 1 需要安装pngquant因为此程序对于8a,8b的输入参数需要用pngquant
 
 sudo apt install pngquant
