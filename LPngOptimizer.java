@@ -29,6 +29,12 @@ public class LPngOptimizer {
 			doCmd("./zopflipng -y " + tmp + " " + out);
 			DelFile(tmp);
 		}
+		if (mode.equals("8c")) {
+			String tmp = pngname.substring(0, pngname.lastIndexOf(".png")) + "_tmp.png";
+			doCmd("pngquant 64 --speed 1 --force --ext _tmp.png " + pngname);
+			doCmd("./zopflipng -y " + tmp + " " + out);
+			DelFile(tmp);
+		}
 		if (mode.equals("16a")) {
 			String tmp = pngname.substring(0, pngname.lastIndexOf(".png")) + "_tmp.png";
 			doCmd("convert " + pngname + " -dither FloydSteinberg -ordered-dither o8x8,32,32,32 " + tmp);
