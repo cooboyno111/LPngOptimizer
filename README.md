@@ -64,10 +64,10 @@ src 275781 (269K)
 
 none 272753 (266K)
 
-拿limitPNG放在首页的两张测试图举例（8a模式 这种模式很省心）
+拿limitPNG放在首页的三张测试图举例
 
-vuelogo.png （11460B-3498B）vs limitPNG （11460B-7898B）
+vuelogo.png 8a（11460B-3498B）vs limitPNG （11460B-7898B）
 
-ss.png （338566B-274615B）vs limitPNG （338566B-286711B）
+ss.png 8a（338566B-274615B）vs limitPNG （338566B-286711B）
 
 熊猫图 8c 9302B
