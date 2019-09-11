@@ -43,14 +43,22 @@ java LPngOptimizer none gfmn.png
 nono 不做预处理直接使用zopflipng优化图片
 
 效果 压缩 gfmn.png
+
 src 275781 (269K)
+
 8a 187313 (182K)
+
 8b 74085 (72K)
+
 16a 187313 (182K)
+
 16b 204561 (199K)
+
 none 272753 (266K)
 
 拿limitPNG放在首页的两张测试图举例（8a模式 这种模式很省心）
+
 vuelogo.png （11460B-3498B）
+
 ss.png （338566B-274615B）
 
