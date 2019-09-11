@@ -58,7 +58,7 @@ none 272753 (266K)
 
 拿limitPNG放在首页的两张测试图举例（8a模式 这种模式很省心）
 
-vuelogo.png （11460B-3498B）
+vuelogo.png （11460B-3498B）vs limitPNG （11460B-7898B）
 
-ss.png （338566B-274615B）
+ss.png （338566B-274615B）vs limitPNG （338566B-286711B）
 
