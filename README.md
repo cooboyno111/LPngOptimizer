@@ -36,7 +36,9 @@ java LPngOptimizer none gfmn.png
 
 使用时请保证zopflipng在同目录下并给予可执行权限
 
-你会发现你拥有了一个超越limitPNG的神器。
+你会发现你拥有了一个超越limitPNG/TinyPNG的神器。
+
+本项目创新点在于扩展了16bit压缩模式。虽然PNG24/32不存在16的写入模式，但我发现使用抖动算法16bit量化后再压缩体积明显变小，而细节降低不明显。
 
 参数
 
